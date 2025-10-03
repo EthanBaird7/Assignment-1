@@ -1,0 +1,60 @@
+<!--html declaration-->
+<!DOCTYPE html>
+<!--html code-->
+<html>
+    <!--head of the code-->
+    <head>
+        <!--telling browser which character encoding to use when reading-->
+        <meta charset="UTF-8">
+        <!--adding a title-->
+        <title>Portfolio - Ethan Baird</title>
+        <!--linking the css-->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <!--body of the code-->
+    <body>
+        <!--creating header-->
+        <header>
+            <!--semantic element-->    
+            <nav>
+                <!--profile picture-->
+                <img src="camaro.jpg" alt="Ethan Baird" class="logo">
+                <!--list for pages for portfolio-->
+                <ul>
+                    <!--pages-->
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--main section of website-->
+        <section id="contact">
+            <!--contact me header-->
+            <h1>Contact Me</h1>
+            <!--creating form-->
+            <form>
+                <!--where you enter your name making it required-->
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <!--where you enter your email and making it required-->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <!--where you enter your message and making it required-->
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <!--creating button to submit-->
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+     <!--creating footer-->
+    <footer>
+        <p>@ 2025 by <strong>Ethan Baird</strong></p>
+    </footer>
+    </body>
+</html>

@@ -1,0 +1,5 @@
+.logo {
+    width: 80px; /* adjust to the size you want */
+    height: 80px; /* maintains aspect ratio */
+    border-radius: 50%; /* optional: makes it circular */
+}
