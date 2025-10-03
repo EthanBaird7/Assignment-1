@@ -24,8 +24,8 @@ main {
 }
 
 header {
-    /* header colour */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    /* header colour */ 
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
 }
 
