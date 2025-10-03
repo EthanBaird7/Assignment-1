@@ -1,7 +1,12 @@
-nav {
-    padding: 10px 20px;
-    /* Contains the floats */
-    overflow: hidden; 
+body {
+    /* creating the gradient */
+    color: white; 
+    background: linear-gradient(to bottom, #aaaaaa, #736767);
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -11,6 +16,23 @@ main {
     margin: 20px auto;
     /* allows for space from element edges */ 
     padding: 20px;
+}
+
+#home, #about, #projects, #contact {
+    /* Centers all headings, paragraphs, and block content horizontally */
+    text-align: center;
+}
+
+header {
+    /* header colour */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    padding: 10px 20px;
+}
+
+nav {
+    padding: 10px 20px;
+    /* Contains the floats */
+    overflow: hidden; 
 }
 
 .logo {
@@ -37,8 +59,6 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
-
-/* ... rest of the styles ... */
