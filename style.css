@@ -1,5 +1,44 @@
-.logo {
-    width: 80px; /* adjust to the size you want */
-    height: 80px; /* maintains aspect ratio */
-    border-radius: 50%; /* optional: makes it circular */
+nav {
+    padding: 10px 20px;
+    /* Contains the floats */
+    overflow: hidden; 
 }
+
+main {
+    /* Sets the readable width of the content */
+    max-width: 800px; 
+    /* 20px top/bottom margin, 'auto' centers the block horizontally */
+    margin: 20px auto;
+    /* allows for space from element edges */ 
+    padding: 20px;
+}
+
+.logo {
+    /* adjust to the size you want */
+    width: 80px;
+    /* maintains aspect ratio */
+    height: 80px;
+    /* optional: makes it circular */
+    border-radius: 50%; 
+}
+
+nav ul {
+    /* Puts the list on the right */
+    float: right; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Makes list items sit side-by-side */
+    margin-left: 20px; /* Separates the links */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/* ... rest of the styles ... */
